@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675740792102' stop='1675740896928'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675740792103' status='broken' stop='1675740896921'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s22 ultra-12.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='97077da1-7508-40ea-9f6d-9cb8a28b583e-attachment.mp4' type='video/mp4' size='154'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "id:Navigate up" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "id:Navigate up" because element wasn't found
+                    at async productsPrice.productsTax (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\screens\price.screen.js:46:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:43:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

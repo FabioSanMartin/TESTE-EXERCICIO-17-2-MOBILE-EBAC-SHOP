@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675830416391' stop='1675830535602'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675830416392' status='broken' stop='1675830535595'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='2d909554-ffc9-4ed6-a40e-3124c521305a-attachment.mp4' type='video/mp4' size='156'/>
+            </attachments>
+            <failure>
+                <message>element ("android=new UiSelector().text("Jaqueta Amarela Feminina")") still not existing after 20000ms</message>
+                <stack-trace>Error: element ("android=new UiSelector().text("Jaqueta Amarela Feminina")") still not existing after 20000ms
+                    at async productsSearch.final (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\screens\productsSearch.screen.js:46:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:73:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

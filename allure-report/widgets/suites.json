@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"dea900122a52b210400ed9e200bc2fc9","name":"Access Admin Panel","statistic":{"failed":0,"broken":2,"skipped":0,"passed":1,"unknown":0,"total":3}},{"uid":"c5be653143821904be1bca673a3ae2c1","name":"Access Admin Panel and Register a New Product","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

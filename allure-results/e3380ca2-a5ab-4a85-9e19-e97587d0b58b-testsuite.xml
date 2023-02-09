@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675727212914' stop='1675727259268'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675727212915' status='passed' stop='1675727259261'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s22 ultra-12.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='19b615d0-0fc7-430f-bc60-fc184780e410-attachment.mp4' type='video/mp4' size='154'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

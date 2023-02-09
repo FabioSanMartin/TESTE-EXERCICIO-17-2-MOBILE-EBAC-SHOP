@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675814267595' stop='1675814353859'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675814267596' status='failed' stop='1675814353853'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='1168cf5f-03d9-47a8-aa41-3cade2fc31de-attachment.mp4' type='video/mp4' size='156'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Jaqueta"
+                Received: ""</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Jaqueta"
+                Received: ""
+                    at Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:66:53)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

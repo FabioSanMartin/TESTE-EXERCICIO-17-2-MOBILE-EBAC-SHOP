@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675798407629' stop='1675798471772'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675798407629' status='broken' stop='1675798471765'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='73599318-3e58-4f57-9193-42ee731db333-attachment.mp4' type='video/mp4' size='156'/>
+            </attachments>
+            <failure>
+                <message>The selector "//:android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "//:android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async productsInventory.managerStockQuantity (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\screens\inventory.screen.js:29:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:57:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

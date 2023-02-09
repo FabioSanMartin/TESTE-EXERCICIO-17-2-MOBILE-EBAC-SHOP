@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675820824077' stop='1675820900717'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675820824078' status='broken' stop='1675820900712'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='5be1b4b4-482e-4c48-a7ec-660ec6a4afe7-attachment.mp4' type='video/mp4' size='156'/>
+            </attachments>
+            <failure>
+                <message>Can't call elementClick on element with selector "//android.widget.CheckedTextView[1]" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementClick on element with selector "//android.widget.CheckedTextView[1]" because element wasn't found
+                    at async productsPrice.productsTax (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\screens\price.screen.js:41:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:55:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675728011571' stop='1675728062098'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675728011572' status='broken' stop='1675728062090'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s22 ultra-12.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='528982c7-454f-4b39-9cda-051093402e73-attachment.mp4' type='video/mp4' size='154'/>
+            </attachments>
+            <failure>
+                <message>Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.ImageView[@content-desc="Product image"])[11]'. See Cause.</message>
+                <stack-trace>WebDriver Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.ImageView[@content-desc="Product image"])[11]'. See Cause.
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async productsScreen.imageProductSelect (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\screens\products.screen.js:38:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

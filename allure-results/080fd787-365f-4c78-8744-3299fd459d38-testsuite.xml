@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675797110313' stop='1675797174885'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1675797110313' status='broken' stop='1675797174879'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='3cffe6d3-2576-4753-b30b-0c482bc87719-attachment.mp4' type='video/mp4' size='156'/>
+            </attachments>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async productsInventory.managerStockQuantity (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\screens\inventory.screen.js:34:9)
+                    at async Context.&lt;anonymous> (C:\repositorio\TESTE-MOBILE-EBAC-SHOP\tests\specs\login.spec.js:57:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
