@@ -39,7 +39,7 @@ exports.config = {
             generation.on('exit', function (exitCode) {
                 clearTimeout(generationTimeout)
 
-                if (exitCode !== 0) {
+                if (exitCode !== 1) {
                     return reject(reportError)
                 }
 
